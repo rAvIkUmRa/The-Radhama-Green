@@ -1,0 +1,162 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1c2645;
+}
+
+#blog {
+    padding: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.blog-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.blog-header h1 {
+    font-size: 32px;
+    color: #c5b130;
+    margin-bottom: 5px;
+}
+
+.blog-header p {
+    font-size: 18px;
+    color: #f5f5f1;
+}
+
+.blog-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 800px;
+}
+
+.blog-img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blog-img img {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.blog-details {
+    width: 60%;
+    padding-left: 20px;
+}
+
+.blog-details h2, .blog-details h4, .blog-details p {
+    color: #333;
+    margin: 5px 0;
+}
+
+.blog-details h2 {
+    font-size: 22px;
+    color: #333;
+}
+
+.blog-details h4 {
+    font-size: 18px;
+    font-weight: normal;
+    color: #777;
+}
+
+.blog-details p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+
+
+ /* Social Media Icons */
+  .social-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 1000;
+ }
+ 
+  .social-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+ }
+ 
+ /* WhatsApp */
+ .social .whatsapp-icon {
+    background-color: #25d366;
+ }
+ 
+ .whatsapp-icon:hover {
+    transform: scale(1.1);
+ }
+ 
+ /* Instagram */
+ .instagram-icon {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+ }
+ 
+ .instagram-icon:hover {
+    transform: scale(1.1);
+ }
+ 
+ /* Email */
+ .email-icon {
+    background-color: #0078D4;
+ }
+ 
+ .email-icon:hover {
+    transform: scale(1.1);
+ }
+
+
+/* Home Button (Top Left) */
+.home-button {
+    background-color: #e7f0e9; /* Blue Background */
+    top: 20px; /* Position at top */
+    left: 20px; /* Position at left */
+ }
+ 
+ .home-button:hover {
+    transform: scale(1.1);
+ }
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .social-box {
+        left: 10px;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 18px;
+    }
+}
