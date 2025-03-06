@@ -9,19 +9,19 @@ body {
   color: #666;
 }
 .pimg1 {
-  background-image: url(pic1/RESORT\ 8.png);
+  background-image: url(RESORT\ 8.png);
   min-height: 100%;
 }
 .pimg2 {
-  background-image: url(pic1/RESORT\ 6.png);
+  background-image: url(RESORT\ 6.png);
   min-height: 400px;
 }
 .pimg3 {
-  background-image: url(pic1/RESORT\ 1.png);
+  background-image: url(RESORT\ 1.png);
   min-height: 400px;
 }
 .pimg4 {
-    background-image: url(pic1/RESORT\ 3.png);
+    background-image: url(RESORT\ 3.png);
     min-height: 400px;
   }
 .pimg1,
